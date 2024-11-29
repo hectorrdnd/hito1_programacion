@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txt_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level: 1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_target_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Target Score: 10"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time: 00:30"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_increment_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increment Score" />
+
+    <Button
+        android:id="@+id/btn_save_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Score" />
+</LinearLayout>
